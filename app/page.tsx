@@ -977,7 +977,7 @@ practices.
                   viewport={{ once: true }}
                   transition={{ duration: 0.5 }}
                >
-                  Get In Touch
+                  Contact Me
                </motion.h2>
                <div className='max-w-md mx-auto text-center'>
                   <motion.p
@@ -1002,7 +1002,46 @@ practices.
                      whileTap={{ scale: 0.95 }}
                   >
                      <Mail className='mr-2 h-5 w-5' />
-                     Contact Me
+                     E-Mail
+                  </motion.a>
+				   <motion.a
+                     href='mailto:anggawijayaa54@gmail.com'
+                     className='inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] h-12 px-8 py-2 dark:button-glow'
+                     initial={{ opacity: 0, y: 20 }}
+                     whileInView={{ opacity: 1, y: 0 }}
+                     viewport={{ once: true }}
+                     transition={{ duration: 0.5, delay: 0.4 }}
+                     whileHover={{ scale: 1.05 }}
+                     whileTap={{ scale: 0.95 }}
+                  >
+                     <Mail className='mr-2 h-5 w-5' />
+                     E-Mail
+                  </motion.a>
+				   <motion.a
+                     href='t.me/@talkao'
+                     className='inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] h-12 px-8 py-2 dark:button-glow'
+                     initial={{ opacity: 0, y: 20 }}
+                     whileInView={{ opacity: 1, y: 0 }}
+                     viewport={{ once: true }}
+                     transition={{ duration: 0.5, delay: 0.4 }}
+                     whileHover={{ scale: 1.05 }}
+                     whileTap={{ scale: 0.95 }}
+                  >
+                     <Telegram className='mr-2 h-5 w-5' />
+                     Telegram
+                  </motion.a>
+				   <motion.a
+                     href='https://x.com/gopalway'
+                     className='inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] h-12 px-8 py-2 dark:button-glow'
+                     initial={{ opacity: 0, y: 20 }}
+                     whileInView={{ opacity: 1, y: 0 }}
+                     viewport={{ once: true }}
+                     transition={{ duration: 0.5, delay: 0.4 }}
+                     whileHover={{ scale: 1.05 }}
+                     whileTap={{ scale: 0.95 }}
+                  >
+                     <X className='mr-2 h-5 w-5' />
+                     X
                   </motion.a>
                </div>
             </div>
@@ -1020,6 +1059,7 @@ practices.
       </main>
    );
 }
+
 
 
 
