@@ -358,14 +358,14 @@ export default function Home() {
                   Work Experience
                </motion.h2>
 				{ /* Supra */ }
-               <div className='max-w-3xl mx-auto'>
+               <div className='max-w-3xl mx-auto mb-6'>
                   <motion.div
                      initial={{ opacity: 0, y: 30 }}
                      whileInView={{ opacity: 1, y: 0 }}
                      viewport={{ once: true }}
                      transition={{ duration: 0.5, delay: 0.2 }}
                   >
-                     <Card className='border-0 shadow-lg rounded-2xl overflow-hidden interactive-card dark:card-highlight margin-bottom:24px'>
+                     <Card className='border-0 shadow-lg rounded-2xl overflow-hidden interactive-card dark:card-highlight'>
                         <CardHeader>
                            <div className='flex justify-between items-start'>
                               <div>
@@ -429,7 +429,7 @@ export default function Home() {
 				<p>
 				</p>
 			{ /* airdrop */ }
-				<div className='max-w-3xl mx-auto'>
+				<div className='max-w-3xl mx-auto mb-6'>
                   <motion.div
                      initial={{ opacity: 0, y: 30 }}
                      whileInView={{ opacity: 1, y: 0 }}
@@ -499,7 +499,7 @@ export default function Home() {
                </div>
 			   
 			{ /* founder */ }
-								<div className='max-w-3xl mx-auto'>
+								<div className='max-w-3xl mx-auto mb-6'>
                   <motion.div
                      initial={{ opacity: 0, y: 30 }}
                      whileInView={{ opacity: 1, y: 0 }}
@@ -1021,6 +1021,7 @@ export default function Home() {
       </main>
    );
 }
+
 
 
 
