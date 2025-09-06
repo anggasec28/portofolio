@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import {
    Download,
@@ -1044,6 +1046,7 @@ practices.
       </main>
    );
 }
+
 
 
 
