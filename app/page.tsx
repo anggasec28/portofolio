@@ -224,7 +224,7 @@ export default function Home() {
                      viewport={{ once: true }}
                      transition={{ duration: 0.5, delay: 0.2 }}
                   >
-					  { /* <p className='text-gray-600 dark:text-gray-300 mb-8 text-lg leading-relaxed dark:text-shadow'>
+					  <p className='text-gray-600 dark:text-gray-300 mb-8 text-lg leading-relaxed dark:text-shadow'>
                         free
                      </p>
                      <p className='text-gray-600 dark:text-gray-300 mb-8 text-lg leading-relaxed dark:text-shadow'>
@@ -232,7 +232,7 @@ export default function Home() {
 						 Fundamental Crypto Analysis, and Ambassador to accelerate brand adoption. 
 						 Proven ability to build loyal and educated communities through strategic campaigns, educational content, 
 						 and authentic engagement within decentralized ecosystems.
-                     </p> */ }
+                     </p> 
                   </motion.div>
                   <motion.div
                      initial={{ opacity: 0, x: 30 }}
@@ -1022,4 +1022,5 @@ export default function Home() {
       </main>
    );
 }
+
 
