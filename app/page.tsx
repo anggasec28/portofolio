@@ -365,7 +365,7 @@ export default function Home() {
                      viewport={{ once: true }}
                      transition={{ duration: 0.5, delay: 0.2 }}
                   >
-                     <Card className='border-0 shadow-lg rounded-2xl overflow-hidden interactive-card dark:card-highlight'>
+                     <Card className='border-0 shadow-lg rounded-2xl overflow-hidden interactive-card dark:card-highlight margin-bottom:24px'>
                         <CardHeader>
                            <div className='flex justify-between items-start'>
                               <div>
@@ -1021,6 +1021,7 @@ export default function Home() {
       </main>
    );
 }
+
 
 
 
