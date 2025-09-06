@@ -159,7 +159,7 @@ export default function Navbar() {
                         )}
                      </motion.button>
                   ))}
-                  <div className='flex items-center space-x-4'>
+                  { /*<div className='flex items-center space-x-4'>
                      <ThemeToggle />
                      <motion.a
                         href='/resume-gopal.pdf'
@@ -171,7 +171,7 @@ export default function Navbar() {
                         <Download className='mr-2 h-4 w-4' />
                         Resume
                      </motion.a>
-                  </div>
+                  </div> */}
                </nav>
 
                {/* Mobile Menu Button */}
@@ -219,7 +219,7 @@ export default function Navbar() {
                            {item.name}
                         </motion.button>
                      ))}
-                     <motion.a
+                     {/*<motion.a
                         href='/resume-gopal.pdf'
                         download
                         className='inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-black dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200 h-12 px-6 py-2 w-full'
@@ -232,7 +232,7 @@ export default function Navbar() {
                      >
                         <Download className='mr-2 h-4 w-4' />
                         Resume
-                     </motion.a>
+                     </motion.a>*/}
                   </nav>
                </div>
             </motion.div>
@@ -240,3 +240,4 @@ export default function Navbar() {
       </motion.header>
    );
 }
+
