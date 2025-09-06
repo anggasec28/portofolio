@@ -426,6 +426,8 @@ export default function Home() {
                      </Card>
                   </motion.div>
                </div>
+				<p>
+				</p>
 			{ /* airdrop */ }
 				<div className='max-w-3xl mx-auto'>
                   <motion.div
@@ -1019,6 +1021,7 @@ export default function Home() {
       </main>
    );
 }
+
 
 
 
