@@ -546,17 +546,20 @@ export default function Home() {
                            <ul className='space-y-3 text-gray-600 dark:text-gray-300 text-base leading-relaxed'>
                               <li className='flex items-start'>
                                  <span className='h-1.5 w-1.5 rounded-full bg-black dark:bg-[#3b82f6] mr-3 mt-2 flex-shrink-0'></span>
-                                 Represented the project on personal social media platforms (Twitter, Telegram, Discord).
+                                 Crypto Analytics & Airdrop Research: Expertise in identifying and
+								  validating opportunities in the crypto ecosystem, including on-chain
+								  research and fundamental analysis of projects
                               </li>
                               <li className='flex items-start'>
                                  <span className='h-1.5 w-1.5 rounded-full bg-black dark:bg-[#3b82f6] mr-3 mt-2 flex-shrink-0'></span>
-                                 Developed and implemented a content calendar, resulting in consistent and relevant content delivery across all platforms.
+                                 Business Strategy & Development
 
                               </li>
                               <li className='flex items-start'>
                                  <span className='h-1.5 w-1.5 rounded-full bg-black dark:bg-[#3b82f6] mr-3 mt-2 flex-shrink-0'></span>
-                                 Provided direct feedback to the developer team and community manager.
-
+                                 Web3 Technologies: Strong understanding of Blockchain
+								  technologies (ETH, L2s), DeFi protocols, NFTs, and wallet security
+practices.
                               </li>
                               <li className='flex items-start'>
                                  <span className='h-1.5 w-1.5 rounded-full bg-black dark:bg-[#3b82f6] mr-3 mt-2 flex-shrink-0'></span>
@@ -594,21 +597,22 @@ export default function Home() {
                            <div className='flex justify-between items-start'>
                               <div>
                                  <CardTitle className='text-xl font-medium'>
-                                    Technical University of Cluj-Napoca
+                                    Associate Degre
+									 Information Technology (IT)
                                  </CardTitle>
                                  <CardDescription>
-                                    Computer Science and Information Technology
+                                    Amikom
                                  </CardDescription>
                               </div>
                               <Badge className='bg-black dark:bg-[#3b82f6] text-white rounded-full px-4 py-1 dark:badge-glow'>
-                                 2022 - 2026
+                                 2022 - 2025
                               </Badge>
                            </div>
                         </CardHeader>
                         <CardContent>
                            <p className='text-gray-600 dark:text-gray-300 mb-6 text-lg dark:text-shadow'>
-                              Undergraduate program focusing on computer science
-                              fundamentals and practical applications.
+                              Focus on computer science
+                              fundamentals and Web Dev.
                            </p>
                            <p className='text-gray-600 dark:text-gray-300 font-medium mb-3'>
                               Relevant Courses:
@@ -1021,6 +1025,7 @@ export default function Home() {
       </main>
    );
 }
+
 
 
 
