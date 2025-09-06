@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import {
    Download,
@@ -441,10 +439,10 @@ export default function Home() {
                            <div className='flex justify-between items-start'>
                               <div>
                                  <CardTitle className='text-xl font-medium'>
-                                    Supra Spartan Ambassador 
+                                    Community Manager & Copywriter  
                                  </CardTitle>
                                  <CardDescription>
-                                    Supra Oracle
+                                    ASC
                                  </CardDescription>
                                  <div className='flex flex-wrap gap-2 mt-3'>
                                     <Badge className='bg-black dark:bg-[#3b82f6] text-white rounded-full px-2 py-1 dark:badge-glow'>
@@ -468,7 +466,7 @@ export default function Home() {
                                  </div>
                               </div>
                               <Badge className='bg-black dark:bg-[#3b82f6] text-white rounded-full px-6 py-1 dark:badge-glow'>
-                                 Dec 2024 - present
+                                 Sep 2024 - Jan 2025
                               </Badge>
                            </div>
                         </CardHeader>
@@ -476,21 +474,26 @@ export default function Home() {
                            <ul className='space-y-3 text-gray-600 dark:text-gray-300 text-base leading-relaxed'>
                               <li className='flex items-start'>
                                  <span className='h-1.5 w-1.5 rounded-full bg-black dark:bg-[#3b82f6] mr-3 mt-2 flex-shrink-0'></span>
-                                 Represented the project on personal social media platforms (Twitter, Telegram, Discord).
+                                 Developed content that supported brand campaigns, leading to a 10% increase in product sales for clients
                               </li>
                               <li className='flex items-start'>
                                  <span className='h-1.5 w-1.5 rounded-full bg-black dark:bg-[#3b82f6] mr-3 mt-2 flex-shrink-0'></span>
-                                 Developed and implemented a content calendar, resulting in consistent and relevant content delivery across all platforms.
+                                 Wrote copy for tech thread twitter education and product descriptions,improving user engagement by 25%
+                              </li>
+                              <li className='flex items-start'>
+                                 <span className='h-1.5 w-1.5 rounded-full bg-black dark:bg-[#3b82f6] mr-3 mt-2 flex-shrink-0'></span>
+                                 Monitor customer complaints on social media and reach out to
+								  provide assistance
 
                               </li>
                               <li className='flex items-start'>
                                  <span className='h-1.5 w-1.5 rounded-full bg-black dark:bg-[#3b82f6] mr-3 mt-2 flex-shrink-0'></span>
-                                 Provided direct feedback to the developer team and community manager.
-
+                                 Managing/moderating members and building community on Telegram and X
                               </li>
+							   </li>
                               <li className='flex items-start'>
                                  <span className='h-1.5 w-1.5 rounded-full bg-black dark:bg-[#3b82f6] mr-3 mt-2 flex-shrink-0'></span>
-                                 Conducted thorough audience research leading to a 25% increase in follower growth and improved targeting for ad campaigns.
+                                 Educating community about the airdrop
                               </li>
                            </ul>
                         </CardContent>
@@ -511,10 +514,10 @@ export default function Home() {
                            <div className='flex justify-between items-start'>
                               <div>
                                  <CardTitle className='text-xl font-medium'>
-                                    Supra Spartan Ambassador 
+                                    Founder & Crypto Growth Strategist 
                                  </CardTitle>
                                  <CardDescription>
-                                    Supra Oracle
+                                    Nongkripto
                                  </CardDescription>
                                  <div className='flex flex-wrap gap-2 mt-3'>
                                     <Badge className='bg-black dark:bg-[#3b82f6] text-white rounded-full px-2 py-1 dark:badge-glow'>
@@ -538,7 +541,7 @@ export default function Home() {
                                  </div>
                               </div>
                               <Badge className='bg-black dark:bg-[#3b82f6] text-white rounded-full px-6 py-1 dark:badge-glow'>
-                                 Dec 2024 - present
+                                 2021 - present
                               </Badge>
                            </div>
                         </CardHeader>
@@ -726,7 +729,23 @@ practices.
                                  whileTap={{ scale: 0.95 }}
                               >
                                  <Badge className='bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] rounded-full px-4 py-1 dark:badge-glow'>
-                                    Java
+                                    Node.js
+                                 </Badge>
+                              </motion.div>
+							    <motion.div
+                                 whileHover={{ scale: 1.1 }}
+                                 whileTap={{ scale: 0.95 }}
+                              >
+                                 <Badge className='bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] rounded-full px-4 py-1 dark:badge-glow'>
+                                    Next.js
+                                 </Badge>
+                              </motion.div>
+							    <motion.div
+                                 whileHover={{ scale: 1.1 }}
+                                 whileTap={{ scale: 0.95 }}
+                              >
+                                 <Badge className='bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] rounded-full px-4 py-1 dark:badge-glow'>
+                                    C++
                                  </Badge>
                               </motion.div>
                            </div>
@@ -1025,6 +1044,7 @@ practices.
       </main>
    );
 }
+
 
 
 
