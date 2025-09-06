@@ -491,7 +491,7 @@ export default function Home() {
                               <li className='flex items-start'>
                                  <span className='h-1.5 w-1.5 rounded-full bg-black dark:bg-[#3b82f6] mr-3 mt-2 flex-shrink-0'></span>
                                  Managing/moderating members and building community on Telegram and X
-                              </li>
+
 							   </li>
                               <li className='flex items-start'>
                                  <span className='h-1.5 w-1.5 rounded-full bg-black dark:bg-[#3b82f6] mr-3 mt-2 flex-shrink-0'></span>
@@ -1046,6 +1046,7 @@ practices.
       </main>
    );
 }
+
 
 
 
