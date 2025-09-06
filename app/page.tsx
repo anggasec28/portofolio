@@ -122,7 +122,7 @@ export default function Home() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.3 }}
                      >
-                        Full Stack Developer & Computer Science Student
+                        Social Media Specialist | Ambassador | Crypto Analyst
                      </motion.h2>
                      <motion.p
                         className='text-gray-600 dark:text-gray-300 mb-10 max-w-md text-lg'
@@ -130,10 +130,8 @@ export default function Home() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.4 }}
                      >
-                        Computer Science student passionate about designing and
-                        building end-to-end full-stack applications—crafting
-                        intuitive user interfaces, implementing scalable backend
-                        systems, and tackling complex problems.
+                        Web3 Community Growth Specialist adept at building bridges between
+						innovative projects and global communities.
                      </motion.p>
                      <motion.div
                         className='flex flex-wrap gap-3 mb-10'
@@ -226,19 +224,15 @@ export default function Home() {
                      viewport={{ once: true }}
                      transition={{ duration: 0.5, delay: 0.2 }}
                   >
-                     <p className='text-gray-600 dark:text-gray-300 mb-8 text-lg leading-relaxed dark:text-shadow'>
-                        I'm a Computer Science student at the Technical
-                        University of Cluj-Napoca with a focus on full-stack
-                        development—designing server-side APIs and crafting rich
-                        user experiences.
+					  { /* <p className='text-gray-600 dark:text-gray-300 mb-8 text-lg leading-relaxed dark:text-shadow'>
+                        free
                      </p>
                      <p className='text-gray-600 dark:text-gray-300 mb-8 text-lg leading-relaxed dark:text-shadow'>
-                        My journey in tech started with building scalable
-                        backend services using Express, then expanded to
-                        creating dynamic frontends with React and Next.js. I’m
-                        always eager to learn new tools and approaches to solve
-                        complex problems end-to-end.
-                     </p>
+                         Professionally combines three core skills Social Media Strategy, 
+						 Fundamental Crypto Analysis, and Ambassador to accelerate brand adoption. 
+						 Proven ability to build loyal and educated communities through strategic campaigns, educational content, 
+						 and authentic engagement within decentralized ecosystems.
+                     </p> */ }
                   </motion.div>
                   <motion.div
                      initial={{ opacity: 0, x: 30 }}
@@ -1028,3 +1022,4 @@ export default function Home() {
       </main>
    );
 }
+
