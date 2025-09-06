@@ -58,8 +58,8 @@ export default function Home() {
       const reviewsData = [
          {
             id: 1,
-            name: "Hm Ryan",
-            company: "No Company",
+            name: "Joshua D. Tobkin",
+            company: "Supra Oracle",
             content:
                "I would like to extend my heartfelt thanks to Stefan for his invaluable help with my son's computer science project. He was exceptionally friendly, responded incredibly quickly, and generously dedicated a great deal of his time. His support made a real difference and is truly appreciated.",
             rating: 5,
@@ -765,7 +765,7 @@ practices.
                      <Card className='border-0 shadow-lg rounded-2xl overflow-hidden interactive-card dark:card-highlight'>
                         <CardHeader>
                            <CardTitle className='text-center text-xl font-medium'>
-                              Backend Development
+                              Social Media Specialist & CM 
                            </CardTitle>
                         </CardHeader>
                         <CardContent className='text-center'>
@@ -775,7 +775,7 @@ practices.
                                  whileTap={{ scale: 0.95 }}
                               >
                                  <Badge className='bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] rounded-full px-4 py-1 dark:badge-glow'>
-                                    Node.js
+                                    Canva
                                  </Badge>
                               </motion.div>
                               <motion.div
@@ -783,15 +783,32 @@ practices.
                                  whileTap={{ scale: 0.95 }}
                               >
                                  <Badge className='bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] rounded-full px-4 py-1 dark:badge-glow'>
-                                    Express.js
+                                    Google Analytics
                                  </Badge>
                               </motion.div>
+							   <motion.div
+                                 whileHover={{ scale: 1.1 }}
+                                 whileTap={{ scale: 0.95 }}
+                              >
+                                 <Badge className='bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] rounded-full px-4 py-1 dark:badge-glow'>
+                                    Discord
+                                 </Badge>
+                              </motion.div>
+							   <motion.div
+                                 whileHover={{ scale: 1.1 }}
+                                 whileTap={{ scale: 0.95 }}
+                              >
+                                 <Badge className='bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] rounded-full px-4 py-1 dark:badge-glow'>
+                                    Twitter
+                                 </Badge>
+                              </motion.div>
+							   
                               <motion.div
                                  whileHover={{ scale: 1.1 }}
                                  whileTap={{ scale: 0.95 }}
                               >
                                  <Badge className='bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] rounded-full px-4 py-1 dark:badge-glow'>
-                                    REST APIs
+                                    Telegram 
                                  </Badge>
                               </motion.div>
                            </div>
@@ -809,7 +826,7 @@ practices.
                      <Card className='border-0 shadow-lg rounded-2xl overflow-hidden interactive-card dark:card-highlight'>
                         <CardHeader>
                            <CardTitle className='text-center text-xl font-medium'>
-                              Frontend Development
+                              Other 
                            </CardTitle>
                         </CardHeader>
                         <CardContent className='text-center'>
@@ -819,7 +836,7 @@ practices.
                                  whileTap={{ scale: 0.95 }}
                               >
                                  <Badge className='bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] rounded-full px-4 py-1 dark:badge-glow'>
-                                    React.js
+                                    Notion
                                  </Badge>
                               </motion.div>
                               <motion.div
@@ -827,7 +844,7 @@ practices.
                                  whileTap={{ scale: 0.95 }}
                               >
                                  <Badge className='bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] rounded-full px-4 py-1 dark:badge-glow'>
-                                    Next.js
+                                    Slack 
                                  </Badge>
                               </motion.div>
                               <motion.div
@@ -835,53 +852,10 @@ practices.
                                  whileTap={{ scale: 0.95 }}
                               >
                                  <Badge className='bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] rounded-full px-4 py-1 dark:badge-glow'>
-                                    CSS
+                                    Figma
                                  </Badge>
                               </motion.div>
-                              <motion.div
-                                 whileHover={{ scale: 1.1 }}
-                                 whileTap={{ scale: 0.95 }}
-                              >
-                                 <Badge className='bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] rounded-full px-4 py-1 dark:badge-glow'>
-                                    Tailwind
-                                 </Badge>
-                              </motion.div>
-                           </div>
-                        </CardContent>
-                     </Card>
-                  </motion.div>
-
-                  <motion.div
-                     initial={{ opacity: 0, y: 30 }}
-                     whileInView={{ opacity: 1, y: 0 }}
-                     viewport={{ once: true }}
-                     transition={{ duration: 0.5, delay: 0.3 }}
-                     whileHover={{ y: -10 }}
-                  >
-                     <Card className='border-0 shadow-lg rounded-2xl overflow-hidden interactive-card dark:card-highlight'>
-                        <CardHeader>
-                           <CardTitle className='text-center text-xl font-medium'>
-                              Databases
-                           </CardTitle>
-                        </CardHeader>
-                        <CardContent className='text-center'>
-                           <div className='flex flex-wrap justify-center gap-2'>
-                              <motion.div
-                                 whileHover={{ scale: 1.1 }}
-                                 whileTap={{ scale: 0.95 }}
-                              >
-                                 <Badge className='bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] rounded-full px-4 py-1 dark:badge-glow'>
-                                    MySQL
-                                 </Badge>
-                              </motion.div>
-                              <motion.div
-                                 whileHover={{ scale: 1.1 }}
-                                 whileTap={{ scale: 0.95 }}
-                              >
-                                 <Badge className='bg-black dark:bg-[#3b82f6] text-white hover:bg-gray-800 dark:hover:bg-[#2563eb] rounded-full px-4 py-1 dark:badge-glow'>
-                                    MongoDB
-                                 </Badge>
-                              </motion.div>
+                            
                            </div>
                         </CardContent>
                      </Card>
@@ -1046,6 +1020,7 @@ practices.
       </main>
    );
 }
+
 
 
 
