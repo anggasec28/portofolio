@@ -1015,7 +1015,7 @@ practices.
                      whileHover={{ scale: 1.05 }}
                      whileTap={{ scale: 0.95 }}
                   >
-                     <Telegram className='mr-2 h-5 w-5' />
+                     <Mail className='mr-2 h-5 w-5' />
                      Telegram
                   </motion.a>
 				   <motion.a
@@ -1028,7 +1028,7 @@ practices.
                      whileHover={{ scale: 1.05 }}
                      whileTap={{ scale: 0.95 }}
                   >
-                     <X className='mr-2 h-5 w-5' />
+                     <Mail className='mr-2 h-5 w-5' />
                      X
                   </motion.a>
                </div>
@@ -1047,6 +1047,7 @@ practices.
       </main>
    );
 }
+
 
 
 
