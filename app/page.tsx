@@ -224,9 +224,6 @@ export default function Home() {
                      viewport={{ once: true }}
                      transition={{ duration: 0.5, delay: 0.2 }}
                   >
-					  <p className='text-gray-600 dark:text-gray-300 mb-8 text-lg leading-relaxed dark:text-shadow'>
-                        free
-                     </p>
                      <p className='text-gray-600 dark:text-gray-300 mb-8 text-lg leading-relaxed dark:text-shadow'>
                          Professionally combines three core skills Social Media Strategy, 
 						 Fundamental Crypto Analysis, and Ambassador to accelerate brand adoption. 
@@ -279,7 +276,7 @@ export default function Home() {
                               >
                                  <Phone className='h-5 w-5 mr-4 text-gray-500 dark:text-gray-400' />
                                  <a
-                                    href='tel:+40756239643'
+                                    href='https://wa.me/6285748285853'
                                     className='text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white'
                                  >
                                     (+62) 857 4828 5853
@@ -360,7 +357,7 @@ export default function Home() {
                >
                   Work Experience
                </motion.h2>
-			   // supra
+				{ /* Supra */ }
                <div className='max-w-3xl mx-auto'>
                   <motion.div
                      initial={{ opacity: 0, y: 30 }}
@@ -429,7 +426,7 @@ export default function Home() {
                      </Card>
                   </motion.div>
                </div>
-		// asc
+			{ /* airdrop */ }
 				<div className='max-w-3xl mx-auto'>
                   <motion.div
                      initial={{ opacity: 0, y: 30 }}
@@ -499,7 +496,7 @@ export default function Home() {
                   </motion.div>
                </div>
 			   
-			// nongkripto
+			{ /* founder */ }
 								<div className='max-w-3xl mx-auto'>
                   <motion.div
                      initial={{ opacity: 0, y: 30 }}
@@ -1022,5 +1019,6 @@ export default function Home() {
       </main>
    );
 }
+
 
 
